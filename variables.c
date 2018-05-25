@@ -6,16 +6,15 @@ int main()
   int a;
   int b = 3;
   int c;
+  int temp;
 
   a = 2;
   c = a + b;
-  
-  int i;
-for(i=0; i<2; i++);
+ printf("Sum of %d and %d is %d\n", a, b, c);
 
-  a = i;
+  temp = a;
   a = c;
-  c = i;
+  c = temp;
 
 printf("a is %d and c is %d\n", a, c);
 }
