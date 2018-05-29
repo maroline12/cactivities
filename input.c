@@ -9,7 +9,7 @@ int main()
   scanf("%f", &radius);
 
   area = 3.14*radius*radius;
-  printf("Area of circle : .2%f\n", area);
+  printf("Area of circle : %f\n", area);
 
   return 0;
 }
